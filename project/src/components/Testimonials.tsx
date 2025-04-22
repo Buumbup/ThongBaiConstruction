@@ -13,26 +13,26 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Jennifer Reynolds",
-    role: "Property Developer",
-    company: "Urban Properties Inc.",
-    quote: "BuildRight delivered our office complex on time and under budget. Their attention to detail and proactive communication made the entire process seamless.",
+    name: "คุณJohn Doe",
+    role: "เจ้าของบ้าน",
+    company: "",
+    quote: "We were impressed by Thongbai Karnchang’s professionalism. The project was completed on schedule, with great quality and no budget surprises",
     image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1200"
   },
   {
     id: 2,
-    name: "Robert Chang",
-    role: "CEO",
-    company: "Pacific Investments",
-    quote: "We've partnered with BuildRight on multiple commercial projects, and they've consistently exceeded our expectations. Their craftsmanship is outstanding.",
+    name: "คุณเชน",
+    role: "เจ้าของโรงงาน",
+    company: "Plastic Products Co.",
+    quote: "เราร่วมงานกับร้านทองใบการช่างในหลายโครงการ ทั้งงานโครงเหล็กและงานต่อเติมต่าง ๆ ทุกครั้งก็ไม่เคยผิดหวัง งานเรียบร้อย แข็งแรง และตรงเวลา เป็นร้านที่ไว้ใจได้จริง ๆ",
     image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1200"
   },
   {
     id: 3,
-    name: "Maria Garcia",
-    role: "Homeowner",
+    name: "คุณสมชิด ทองประดับ",
+    role: "เจ้าของบ้าน",
     company: "",
-    quote: "Our custom home was a dream come true thanks to BuildRight. They listened to our needs and delivered a beautiful, high-quality result that we love.",
+    quote: "งานเหล็กบ้านเราออกมาสวย แข็งแรง และตรงใจมาก ต้องขอบคุณร้านทองใบการช่างที่ใส่ใจทุกรายละเอียด ฟังความต้องการเราทุกขั้นตอน แล้วก็ทำออกมาได้เป๊ะจริง ๆ",
     image: "https://images.pexels.com/photos/3760819/pexels-photo-3760819.jpeg?auto=compress&cs=tinysrgb&w=1200"
   }
 ];
@@ -69,10 +69,10 @@ const Testimonials: React.FC = () => {
     <section id="testimonials" className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Client Testimonials</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">ความคิดเห็นผู้ใช้</h2>
           <div className="w-24 h-1 bg-yellow-500 mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-gray-600 text-lg">
-            Hear from our satisfied clients about their experience working with BuildRight Construction.
+          ดูว่าลูกค้ารู้สึกอย่างไรหลังใช้บริการจากร้านทองใบการช่าง
           </p>
         </div>
         

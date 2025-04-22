@@ -31,18 +31,32 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-2">
             <HardHat className="h-9 w-9 text-yellow-500" />
-            <span className="text-2xl font-bold tracking-tight text-gray-900">ThongBaiContr.</span>
+            <span className={`text-2xl font-bold tracking-tight transition-colors duration-300 ${ isScrolled ? 'text-gray-900' : 'text-white'}`}>
+            ThongBaiContr.
+            </span>
           </div>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-10">
-            <Link href="#home">หน้าหลัก</Link>
-            <Link href="#services">บริการ</Link>
-            <Link href="#projects">ผลงาน</Link>
-            <Link href="#about">เกี่ยวกับเรา</Link>
-            <Link href="#team">ทีม</Link>
-            <Link href="#testimonials">ความคิดเห็นผู้ใช้</Link>
-          </nav>
+          {[
+            { href: "#home", label: "หน้าหลัก" },
+            { href: "#services", label: "บริการ" },
+            { href: "#projects", label: "ผลงาน" },
+            { href: "#about", label: "เกี่ยวกับเรา" },
+            { href: "#team", label: "ทีม" },
+            { href: "#testimonials", label: "ความคิดเห็นผู้ใช้" },
+          ].map(({ href, label }) => (
+            <Link
+              key={href}
+              href={href}
+              className={`transition-colors duration-300 ${
+                isScrolled ? "text-gray-900 hover:text-yellow-500" : "text-white hover:text-yellow-300"
+              }`}
+            >
+              {label}
+            </Link>
+          ))}
+        </nav>
           
           <div className="hidden md:block">
             <Link 

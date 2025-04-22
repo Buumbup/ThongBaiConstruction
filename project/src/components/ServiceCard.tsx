@@ -17,7 +17,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, icon }) =
         href="#contact" 
         className="inline-flex items-center text-yellow-500 font-medium group-hover:text-yellow-600 transition-colors"
       >
-        Learn More 
+        สอบถามเพิ่มเติม 
         <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
       </a>
     </div>

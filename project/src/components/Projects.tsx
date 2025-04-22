@@ -4,52 +4,52 @@ import ProjectCard from './ProjectCard';
 const projects = [
   {
     id: 1,
-    title: 'Modern Office Complex',
-    category: 'commercial',
+    title: 'งานโครงสร้างเหล็ก',
+    category: 'โครงสร้างเหล็กและหลังคา',
     image: 'https://images.pexels.com/photos/1838640/pexels-photo-1838640.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    description: 'A 15-story office building with state-of-the-art facilities and sustainable design.'
+    description: 'โครงสร้างเหล็กที่แข็งแรงและยืดหยุ่น ออกแบบมาเพื่อรองรับการใช้งานที่มั่นคงและยาวนาน'
   },
   {
     id: 2,
-    title: 'Luxury Residential Tower',
-    category: 'residential',
+    title: 'งานซ่อมแซมโครงสร้างและหลังคา',
+    category: 'งานก่อสร้างและงานปูน',
     image: 'https://images.pexels.com/photos/2138126/pexels-photo-2138126.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    description: 'Premium condominiums with high-end finishes and panoramic city views.'
+    description: 'บริการซ่อมแซมโครงสร้างและหลังคาอย่างครบวงจร ทั้งการเสริมความแข็งแรงของโครงสร้าง และการแก้ไขปัญหารั่วซึม เพื่อยืดอายุการใช้งานของอาคาร'
   },
   {
     id: 3,
-    title: 'Manufacturing Plant',
-    category: 'industrial',
+    title: 'มุ้งลวดบานเลื่อน บานเปิด',
+    category: 'งานมุ้งลวดและประตูหน้าต่าง',
     image: 'https://images.pexels.com/photos/2760241/pexels-photo-2760241.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    description: 'A 50,000 sq ft manufacturing facility designed for maximum efficiency and safety.'
+    description: 'มุ้งลวดคุณภาพสูง ดีไซน์สวยงาม ใช้งานสะดวก มีทั้งแบบบานเลื่อน บานเปิด และม้วนเก็บ เพื่อรองรับทุกการใช้งาน'
   },
   {
     id: 4,
-    title: 'Community Recreation Center',
-    category: 'commercial',
+    title: 'โครงหลังคา',
+    category: 'โครงสร้างเหล็กและหลังคา',
     image: 'https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    description: 'Multi-purpose facility with sports courts, swimming pool, and event spaces.'
+    description: 'โครงหลังคาอเนกประสงค์สำหรับบ้าน โรงงาน และโรงจอดรถ มั่นคง ปลอดภัย และคงทนในระยะยาว'
   },
   {
     id: 5,
-    title: 'Custom Family Home',
-    category: 'residential',
+    title: 'งานเทพื้นคอนกรีต เทคาน เทเสา ก่ออิฐ ฉาบปูน',
+    category: 'งานก่อสร้างและงานปูน',
     image: 'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    description: 'Bespoke 4-bedroom residence with custom finishes and smart home technology.'
+    description: 'งานเทพื้น เทคาน และเทเสา ด้วยมาตรฐานวิศวกรรมที่แม่นยำ มั่นคง ทนทาน และตอบโจทย์งานก่อสร้างทุกรูปแบบ'
   },
   {
     id: 6,
-    title: 'Logistics Warehouse',
-    category: 'industrial',
+    title: 'ประตูรั้วเหล็กดัด ประตูหน้าต่างเหล็กดัด',
+    category: 'งานมุ้งลวดและประตูหน้าต่าง',
     image: 'https://images.pexels.com/photos/236705/pexels-photo-236705.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    description: 'Large-scale distribution center with advanced logistics systems.'
+    description: 'ประตูรั้วและหน้าต่างเหล็กดัดที่แข็งแรง ปลอดภัย และสวยงาม เพิ่มทั้งฟังก์ชันและความโดดเด่นให้กับบ้านและอาคาร'
   }
 ];
 
 const Projects: React.FC = () => {
-  const [activeFilter, setActiveFilter] = useState('all');
+  const [activeFilter, setActiveFilter] = useState('ทั้งหมด');
   
-  const filteredProjects = activeFilter === 'all' 
+  const filteredProjects = activeFilter === 'ทั้งหมด' 
     ? projects 
     : projects.filter(project => project.category === activeFilter);
 
@@ -57,16 +57,16 @@ const Projects: React.FC = () => {
     <section id="projects" className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Projects</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">ผลงานของเรา</h2>
           <div className="w-24 h-1 bg-yellow-500 mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-gray-600 text-lg">
-            View our portfolio of completed projects across residential, commercial, and industrial sectors.
+          ชมผลงานที่ผ่านมาในงานโครงสร้างเหล็กและหลังคา งานก่อสร้างและงานปูน และงานมุ้งลวดและประตูหน้าต่าง
           </p>
         </div>
         
         <div className="flex justify-center mb-10">
           <div className="inline-flex flex-wrap gap-2 md:gap-4 p-1 bg-gray-100 rounded-lg">
-            {['all', 'residential', 'commercial', 'industrial'].map((filter) => (
+            {['ทั้งหมด', 'งานก่อสร้างและงานปูน', 'โครงสร้างเหล็กและหลังคา', 'งานมุ้งลวดและประตูหน้าต่าง'].map((filter) => (
               <button
                 key={filter}
                 className={`px-4 py-2 rounded-md capitalize transition-colors ${
