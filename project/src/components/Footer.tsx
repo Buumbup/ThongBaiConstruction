@@ -89,6 +89,10 @@ const Footer: React.FC = () => {
                 <span className="text-yellow-500 mr-3">🕒</span>
                 <span className="text-gray-400">จันทร์-อาทิตย์: 8am - 6pm</span>
               </li>
+              <li className="flex items-center">
+                <span className="text-yellow-500 mr-3">📗</span>
+                <span className="text-gray-400">Line Id : 0818379679</span>
+              </li>
             </ul>
           </div>
         </div>
