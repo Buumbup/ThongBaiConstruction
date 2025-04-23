@@ -77,7 +77,7 @@ const Contact: React.FC = () => {
                     <Mail className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg mb-1">Email Us</h4>
+                    <h4 className="font-bold text-lg mb-1">อีเมล์ของเรา</h4>
                     <p className="text-gray-300">ThongBai.Contact@gmail.com</p>
                     <p className="text-gray-300">ThongBai.Ganchang@gmail.com</p>
                   </div>
@@ -88,7 +88,7 @@ const Contact: React.FC = () => {
                     <Phone className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg mb-1">Call Us</h4>
+                    <h4 className="font-bold text-lg mb-1">โทรติดต่อ</h4>
                     <p className="text-gray-300">081-837-9679</p>
                     <p className="text-gray-300">094-186-4686</p>
                   </div>

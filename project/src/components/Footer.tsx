@@ -17,10 +17,10 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center space-x-2 mb-6">
               <HardHat className="h-8 w-8 text-yellow-500" />
-              <span className="text-2xl font-bold tracking-tight">BuildRight</span>
+              <span className="text-2xl font-bold tracking-tight">ThongBaiContr.</span>
             </div>
             <p className="text-gray-400 mb-6">
-              Building excellence through quality construction, innovative design, and exceptional service since 1998.
+            ก่อตั้งขึ้นในปี พ.ศ. 2545 ร้านทองใบการช่างเริ่มต้นจากร้านงานเหล็กเล็ก ๆ ในชุมชน และเติบโตอย่างมั่นคงจนเป็นหนึ่งในร้านช่างเหล็กที่ได้รับความไว้วางใจในพื้นที่
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-yellow-500 transition-colors" aria-label="Facebook">
@@ -40,50 +40,54 @@ const Footer: React.FC = () => {
           
           <div>
             <h3 className="text-lg font-bold mb-6 relative">
-              <span className="after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-1 after:w-12 after:bg-yellow-500 after:rounded pb-2">Our Services</span>
+              <span className="after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-1 after:w-12 after:bg-yellow-500 after:rounded pb-2">บริการของเรา</span>
             </h3>
             <ul className="space-y-3">
-              <li><Link href="#services" className="text-gray-400 hover:text-yellow-500 transition-colors">Residential Construction</Link></li>
-              <li><Link href="#services" className="text-gray-400 hover:text-yellow-500 transition-colors">Commercial Buildings</Link></li>
-              <li><Link href="#services" className="text-gray-400 hover:text-yellow-500 transition-colors">Industrial Facilities</Link></li>
-              <li><Link href="#services" className="text-gray-400 hover:text-yellow-500 transition-colors">Project Management</Link></li>
-              <li><Link href="#services" className="text-gray-400 hover:text-yellow-500 transition-colors">Design & Planning</Link></li>
+              <li><Link href="#services" className="text-gray-400 hover:text-yellow-500 transition-colors">งานโครงสร้างเหล็ก</Link></li>
+              <li><Link href="#services" className="text-gray-400 hover:text-yellow-500 transition-colors">งานโครงหลังคา</Link></li>
+              <li><Link href="#services" className="text-gray-400 hover:text-yellow-500 transition-colors">งานปูน</Link></li>
+              <li><Link href="#services" className="text-gray-400 hover:text-yellow-500 transition-colors">มุ้งลวด</Link></li>
+              <li><Link href="#services" className="text-gray-400 hover:text-yellow-500 transition-colors">ประตูเหล็กดัด</Link></li>
+              <li><Link href="#services" className="text-gray-400 hover:text-yellow-500 transition-colors">บูรณะซ่อมแซม</Link></li>
             </ul>
           </div>
           
           <div>
             <h3 className="text-lg font-bold mb-6 relative">
-              <span className="after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-1 after:w-12 after:bg-yellow-500 after:rounded pb-2">Quick Links</span>
+              <span className="after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-1 after:w-12 after:bg-yellow-500 after:rounded pb-2">ทางลัด</span>
             </h3>
             <ul className="space-y-3">
-              <li><Link href="#home" className="text-gray-400 hover:text-yellow-500 transition-colors">Home</Link></li>
-              <li><Link href="#about" className="text-gray-400 hover:text-yellow-500 transition-colors">About Us</Link></li>
-              <li><Link href="#projects" className="text-gray-400 hover:text-yellow-500 transition-colors">Projects</Link></li>
-              <li><Link href="#testimonials" className="text-gray-400 hover:text-yellow-500 transition-colors">Testimonials</Link></li>
-              <li><Link href="#contact" className="text-gray-400 hover:text-yellow-500 transition-colors">Contact</Link></li>
+              <li><Link href="#home" className="text-gray-400 hover:text-yellow-500 transition-colors">หน้าหลัก</Link></li>
+              <li><Link href="#about" className="text-gray-400 hover:text-yellow-500 transition-colors">เกี่ยวกับเรา</Link></li>
+              <li><Link href="#projects" className="text-gray-400 hover:text-yellow-500 transition-colors">ผลงาน</Link></li>
+              <li><Link href="#testimonials" className="text-gray-400 hover:text-yellow-500 transition-colors">ความคิดเห็นผู้ใช้</Link></li>
+              <li><Link href="#contact" className="text-gray-400 hover:text-yellow-500 transition-colors">ช่องทางติดต่อ</Link></li>
             </ul>
           </div>
           
           <div>
             <h3 className="text-lg font-bold mb-6 relative">
-              <span className="after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-1 after:w-12 after:bg-yellow-500 after:rounded pb-2">Contact Info</span>
+              <span className="after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-1 after:w-12 after:bg-yellow-500 after:rounded pb-2">ข้อมูล ติดต่อ</span>
             </h3>
             <ul className="space-y-4">
               <li className="flex items-start">
                 <span className="text-yellow-500 mr-3">📍</span>
-                <span className="text-gray-400">1234 Construction Ave, Suite 500<br />New York, NY 10001</span>
+                <span className="text-gray-400">375 ซอย ลาซาล ถนน ลาซาล<br />
+                    ถ.สุขุมวิท 105 แขวงบางนาใต้<br />
+                    เขตบางนา กรุงเทพมหานคร 10260</span>
               </li>
               <li className="flex items-center">
                 <span className="text-yellow-500 mr-3">📞</span>
-                <span className="text-gray-400">(555) 123-4567</span>
+                <span className="text-gray-400">081-837-9679</span>
               </li>
               <li className="flex items-center">
                 <span className="text-yellow-500 mr-3">📧</span>
-                <a href="mailto:info@buildright.com" className="text-gray-400 hover:text-yellow-500 transition-colors">info@buildright.com</a>
+                <a href="mailto:info@buildright.com" className="text-gray-400 hover:text-yellow-500 transition-colors">ThongBai.Contact@gmail.com
+                </a>
               </li>
               <li className="flex items-center">
                 <span className="text-yellow-500 mr-3">🕒</span>
-                <span className="text-gray-400">Mon-Fri: 8am - 6pm</span>
+                <span className="text-gray-400">จันทร์-อาทิตย์: 8am - 6pm</span>
               </li>
             </ul>
           </div>
@@ -91,7 +95,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-gray-800 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} BuildRight Construction. All rights reserved.
+            © {new Date().getFullYear()} ThongBaiContruction. All rights reserved.
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-gray-500 text-sm">
             <a href="#" className="hover:text-yellow-500 transition-colors">Privacy Policy</a>

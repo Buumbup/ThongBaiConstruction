@@ -11,7 +11,7 @@ const Team: React.FC = () => {
       socials: {
         linkedin: '#',
         twitter: '#',
-        email: 'james@buildright.com',
+        email: 'ThongBai.Ganchang@gmail.com',
       }
     },
     {
@@ -22,7 +22,7 @@ const Team: React.FC = () => {
       socials: {
         linkedin: '#',
         twitter: '#',
-        email: 'sarah@buildright.com',
+        email: 'ThongBai.Contact@gmail.com',
       }
     },
     
