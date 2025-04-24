@@ -70,7 +70,7 @@ const Testimonials: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">ความคิดเห็นผู้ใช้</h2>
-          <div className="w-24 h-1 bg-yellow-500 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-yellow-500 mx-auto mb-6 rounded"></div>
           <p className="max-w-2xl mx-auto text-gray-600 text-lg">
           ดูว่าลูกค้ารู้สึกอย่างไรหลังใช้บริการจากร้านทองใบการช่าง
           </p>

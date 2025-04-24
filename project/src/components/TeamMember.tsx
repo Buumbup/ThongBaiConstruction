@@ -1,5 +1,5 @@
 import React from 'react';
-import { Linkedin, Twitter, Mail } from 'lucide-react';
+import { Facebook, Mail } from 'lucide-react';
 
 interface TeamMemberProps {
   member: {
@@ -8,8 +8,7 @@ interface TeamMemberProps {
     position: string;
     image: string;
     socials: {
-      linkedin: string;
-      twitter: string;
+      Facebook: string;
       email: string;
     };
   };
@@ -31,18 +30,11 @@ const TeamMember: React.FC<TeamMemberProps> = ({ member }) => {
         <p className="text-yellow-500 font-medium mb-3">{member.position}</p>
         <div className="flex space-x-3 mt-4">
           <a 
-            href={member.socials.linkedin} 
+            href={member.socials.Facebook} 
             className="p-2 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
-            aria-label="LinkedIn"
+            aria-label="Facebook"
           >
-            <Linkedin size={18} className="text-gray-700" />
-          </a>
-          <a 
-            href={member.socials.twitter} 
-            className="p-2 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
-            aria-label="Twitter"
-          >
-            <Twitter size={18} className="text-gray-700" />
+            <Facebook size={18} className="text-gray-700" />
           </a>
           <a 
             href={`mailto:${member.socials.email}`} 

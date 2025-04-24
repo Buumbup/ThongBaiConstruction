@@ -47,7 +47,7 @@ const Services: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">บริการของเรา</h2>
-          <div className="w-24 h-1 bg-yellow-500 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-yellow-500 mx-auto mb-6 rounded"></div>
           <p className="max-w-2xl mx-auto text-gray-600 text-lg">
           เราให้บริการก่อสร้างแบบครบวงจร ตั้งแต่การออกแบบจนถึงงานก่อสร้างแล้วเสร็จ โดยปรับให้เหมาะกับความต้องการของคุณโดยเฉพาะ
           </p>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { HardHat, Facebook, Instagram, Twitter, Linkedin, ArrowUp } from 'lucide-react';
+import { HardHat, Facebook, Mail, ArrowUp } from 'lucide-react';
 import { Link } from './ui/Link';
 
 const Footer: React.FC = () => {
@@ -26,14 +26,8 @@ const Footer: React.FC = () => {
               <a href="#" className="text-gray-400 hover:text-yellow-500 transition-colors" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-yellow-500 transition-colors" aria-label="Instagram">
-                <Instagram size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-yellow-500 transition-colors" aria-label="Twitter">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-yellow-500 transition-colors" aria-label="LinkedIn">
-                <Linkedin size={20} />
+              <a href="#" className="text-gray-400 hover:text-yellow-500 transition-colors" aria-label="Mail">
+                <Mail size={20} />
               </a>
             </div>
           </div>
@@ -67,7 +61,7 @@ const Footer: React.FC = () => {
           
           <div>
             <h3 className="text-lg font-bold mb-6 relative">
-              <span className="after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-1 after:w-12 after:bg-yellow-500 after:rounded pb-2">ข้อมูล ติดต่อ</span>
+              <span className="after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-1 after:w-12 after:bg-yellow-500 after:rounded pb-2">ข้อมูลการติดต่อ</span>
             </h3>
             <ul className="space-y-4">
               <li className="flex items-start">
@@ -90,7 +84,11 @@ const Footer: React.FC = () => {
                 <span className="text-gray-400">จันทร์-อาทิตย์: 8am - 6pm</span>
               </li>
               <li className="flex items-center">
-                <span className="text-yellow-500 mr-3">📗</span>
+                <img
+                className="text-yellow-500 mr-3"
+                src="https://upload.wikimedia.org/wikipedia/commons/4/41/LINE_logo.svg"
+                alt="LINE logo"
+                width={20}/>
                 <span className="text-gray-400">Line Id : 0818379679</span>
               </li>
             </ul>
