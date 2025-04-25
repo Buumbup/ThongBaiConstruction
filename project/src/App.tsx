@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
-    document.title = 'BuildRight Construction | Building Excellence';
+    document.title = 'ThongBai Construction | Building Excellence';
   }, []);
 
   return (
