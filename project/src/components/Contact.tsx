@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin} from 'lucide-react';
-import { FaLine } from 'react-icons/fa';
+import { Mail, Phone, MapPin, BookAIcon} from 'lucide-react';
+
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -96,7 +96,7 @@ const Contact: React.FC = () => {
 
                 <div className="flex items-start">
                   <div className="bg-yellow-500 p-3 rounded-lg mr-4">
-                    <FaLine className="h-6 w-6 text-white" />
+                    <BookAIcon className="h-6 w-6 text-white" />
                   </div>
                   <div>
                     <h4 className="font-bold text-lg mb-1">ID Line</h4>
