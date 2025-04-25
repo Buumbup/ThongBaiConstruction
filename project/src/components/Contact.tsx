@@ -46,7 +46,7 @@ const Contact: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">ติดต่อเรา</h2>
-          <div className="w-24 h-1 bg-yellow-500 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-yellow-500 mx-auto mb-6 rounded"></div>
           <p className="max-w-2xl mx-auto text-gray-300 text-lg">
           มีงานโปรเจ็คในใจ หรือต้องการข้อมูลเพิ่มเติมใช่ไหม? ติดต่อทีมงานของเราได้เลยวันนี้
           </p>

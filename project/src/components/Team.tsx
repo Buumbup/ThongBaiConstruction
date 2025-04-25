@@ -1,5 +1,7 @@
 import React from 'react';
 import TeamMember from './TeamMember';
+import BoomImage from "../assets/boom.jpg"; 
+import DadImage from "../assets/dad.jpg";
 
 const Team: React.FC = () => {
   const teamMembers = [
@@ -7,10 +9,9 @@ const Team: React.FC = () => {
       id: 1,
       name: 'ช่างทองใบ',
       position: 'เจ้าของกิจการ',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      image: DadImage,
       socials: {
-        linkedin: '#',
-        twitter: '#',
+        Facebook: '#',
         email: 'ThongBai.Ganchang@gmail.com',
       }
     },
@@ -18,10 +19,9 @@ const Team: React.FC = () => {
       id: 2,
       name: 'คุณชินภัทร',
       position: 'พนักงานติดต่อสอบถาม',
-      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      image: BoomImage,
       socials: {
-        linkedin: '#',
-        twitter: '#',
+        Facebook: '#',
         email: 'ThongBai.Contact@gmail.com',
       }
     },
@@ -33,7 +33,7 @@ const Team: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">ทีมงาน</h2>
-          <div className="w-24 h-1 bg-yellow-500 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-yellow-500 mx-auto mb-6 rounded"></div>
           <p className="max-w-2xl mx-auto text-gray-600 text-lg">
           รวมทีมช่างมากประสบการณ์ ที่ทำงานด้วยความตั้งใจและความรักในสิ่งที่ทำ เพื่อให้งานทุกชิ้นออกมาดีที่สุด
           </p>

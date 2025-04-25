@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       id="home" 
       className="relative min-h-screen flex items-center pt-24 bg-cover bg-center"
       style={{
-        backgroundImage: 'url("https://wallpapercat.com/w/full/0/5/d/704512-1920x1280-desktop-hd-thomas-shelby-peaky-blinders-wallpaper-photo.jpg")',
+        backgroundImage: 'url("https://www.tcpumpparts.com/wp-content/uploads/2018/09/001-2.jpg")',
         backgroundBlendMode: 'overlay',
       }}
     >
