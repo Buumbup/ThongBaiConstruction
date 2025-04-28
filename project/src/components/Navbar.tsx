@@ -68,8 +68,8 @@ const Navbar: React.FC = () => {
           </div>
           
           {/* Mobile Menu Button */}
-          <button 
-            className={`text-2xl font-bold tracking-tight transition-colors duration-300 ${ (isScrolled || isOpen) ? 'text-gray-900' : 'text-white'}`}
+          <button
+            className={`md:hidden transition-colors ${(isScrolled || isOpen)  ? 'text-gray-900' : 'text-white'} hover:text-yellow-500`}
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={28} /> : <Menu size={28} />}
