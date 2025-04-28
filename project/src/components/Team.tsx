@@ -1,7 +1,7 @@
 import React from 'react';
 import TeamMember from './TeamMember';
 import BoomImage from "../assets/boom.jpg"; 
-import DadImage from "../assets/dad.jpg";
+import DadImage from "../assets/dadboom.jpg";
 
 const Team: React.FC = () => {
   const teamMembers = [

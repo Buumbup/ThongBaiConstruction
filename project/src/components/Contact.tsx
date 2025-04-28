@@ -53,7 +53,7 @@ const Contact: React.FC = () => {
           </p>
         </div>
         
-        <div className="grid">
+        <div className="grid grid-cols-1 gap-12">
           <div>
             <div className="bg-gray-800 rounded-lg p-8 h-full">
               <h3 className="text-2xl font-bold mb-6">สามารถติดต่อเราได้ที่นี่</h3>

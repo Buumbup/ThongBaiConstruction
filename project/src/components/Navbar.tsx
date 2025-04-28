@@ -31,8 +31,8 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-2">
             <HardHat className="h-9 w-9 text-yellow-500" />
-            <span className={`text-2xl font-bold tracking-tight transition-colors duration-300 ${ isScrolled ? 'text-gray-900' : 'text-white'}`}>
-            ThongBaiContr.
+            <span className={`text-2xl font-bold tracking-tight transition-colors duration-300 ${ (isScrolled || isOpen) ? 'text-gray-900' : 'text-white'}`}>
+             ThongBaiContr.
             </span>
           </div>
           
@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
           
           {/* Mobile Menu Button */}
           <button 
-            className="md:hidden text-gray-800 hover:text-yellow-500 transition-colors"
+            className={`text-2xl font-bold tracking-tight transition-colors duration-300 ${ (isScrolled || isOpen) ? 'text-gray-900' : 'text-white'}`}
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={28} /> : <Menu size={28} />}
